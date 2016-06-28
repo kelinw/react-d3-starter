@@ -1,13 +1,13 @@
 {
-  "name": "react-starter-temp",
+  "name": "react-d3-starter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "React boilerplate with D3 data viz bundle starter kit",
+  "main": "index.html",
   "scripts": {
     "dev-server": "./node_modules/.bin/webpack-dev-server  --host localhost --port 8000 --content-base src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Kelin Wu",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.10.4",
