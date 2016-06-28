@@ -1,14 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Header from "./components/Header.js";
+import D3Container from "./components/D3Container.js";
+import Footer from "./components/Footer.js";
 
-class Hello extends React.Component {
-	render() {
-		return (
-			<h1>Hello React World - starter</h1>
+export default class Layout extends React.Component {
+	render(){
+		return(
+			<div>
+				<Header />
+				
+				<D3Container />
+
+				<Footer />
+			</div>
 		);
 	}
 }
 
 const app = document.getElementById('app');
 
-ReactDOM.render(<Hello />, app);
+ReactDOM.render(<Layout />, app);
